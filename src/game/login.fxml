@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="415.0" style="-fx-background-color: #FF4500;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.ControllerReal">
+   <children>
+      <Button fx:id="hostbtn" layoutX="148.0" layoutY="166.0" mnemonicParsing="false" onAction="#onHostButtonClicked" prefHeight="25.0" prefWidth="59.0" style="-fx-background-radius: 30; -fx-background-color: #006400;" text="Host" textFill="WHITE" />
+      <Button fx:id="guestbtn" layoutX="236.0" layoutY="166.0" mnemonicParsing="false" onAction="#onGuestButtonClicked" prefHeight="25.0" prefWidth="59.0" style="-fx-background-radius: 30; -fx-background-color: #006400;" text="Guest" textFill="WHITE" />
+      <TextField fx:id="servertext" layoutX="147.0" layoutY="214.0" style="-fx-background-radius: 30; -fx-background-color: #006400;" />
+      <Label layoutX="33.0" layoutY="218.0" text="Add Server ip" textFill="WHITE" />
+      <Button fx:id="playbtn" layoutX="313.0" layoutY="191.0" mnemonicParsing="false" onAction="#onPlayButtonClicked" prefHeight="25.0" prefWidth="88.0" style="-fx-background-radius: 30; -fx-background-color: #006400;" text="Play" textFill="WHITE" />
+      <Label layoutX="33.0" layoutY="170.0" text="Play as" textFill="WHITE" />
+      <Label graphicTextGap="0.0" layoutX="13.0" layoutY="56.0" text="T H R O W  M A S T E R">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
